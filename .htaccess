@@ -1,0 +1,60 @@
+
+
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} ^GET\ /users.php?username=([^\s&]+)&cond=([^\s&]) [NC]
+RewriteRule ^users.php/%1&/%2 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^u/(.+)/(.+)? /users.php?username=$1&cond=$2 [NC,L]
+
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} ^GET\ /users.php?username=([^\s&]+)&cond=([^\s&]) [NC]
+RewriteRule ^users.php/%1&/%2 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^u/(.+)/(.+)? /users.php?username=$1&cond=$2 [NC,L]
+
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^GET\ /pages.php?page=([^\s&]+) [NC]
+RewriteRule ^pages.php/%1&/%2 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/page? /pages.php?page=$1 [NC,L]
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^GET\ /users.php?username=([^\s&]+) [NC]
+RewriteRule ^users.php/%1& [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^u/(.+)/? /users.php?username=$1 [NC,L]
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^GET\ /messages.php?other=([^\s&]+) [NC]
+RewriteRule ^messages.php/%1& [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^m/(.+)/? /messages.php?other=$1 [NC,L]
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^GET\ /posts.php?id=([^\s&]+) [NC]
+RewriteRule ^posts.php/%1& [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^posts/(.+)/? /posts.php?id=$1 [NC,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

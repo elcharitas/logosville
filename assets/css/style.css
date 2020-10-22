@@ -1,0 +1,497 @@
+@font-face {
+    font-family: SFProDisplay-Regular;
+    src: url(/assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logosville{
+    touch-action: manipulation;
+}
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+body {
+    background: #f0f2f5;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+    overflow-y: scroll;
+}
+
+.lv_logo{
+    height: 106px;
+}
+
+
+.medium-text{
+    font-size: 14px;
+}
+
+._10px_mar{
+    margin-bottom: 10px;
+}
+
+.float-left{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.form_lv_reg_2{
+    padding: 5px;
+    font-size: 15px;
+    background: #f5f6f7;
+    line-height: 0;
+    margin-top: 8px;
+}
+
+.form_lv_reg{
+    color: #8d949e;
+    font-size: 15px;
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    margin-bottom: 16px;
+    height: 40px;
+    background: #f5f6f7;
+}
+#signUpModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 400;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    overflow-x: hidden;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    overflow-y: auto;
+    background: rgb(0, 0, 0, 0.5);;
+}
+
+.sign_modal_frame{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin-top: 35px;
+    display: inline-block;
+    background: white;
+    overflow: visible;
+    width: 432px;
+    border-radius: 8px;
+}
+.sign_head{
+    background-color: #fff;
+    margin-top: 0;
+    padding-top: 10px;
+    border-radius: 8px;
+    padding: 0 15px;
+    padding-top: 10px;
+}
+.lvcb{
+    color: #1c1e21;
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+._8fgl{
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+}
+.modals {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#fade {
+    transition: opacity 0.15s linear;
+}
+
+#logosville ._8esj._8esf._8icx._8opv ._8eso {
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+}
+
+._8esf ._8esl {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+}
+
+._8esl {
+    display: inline-block;
+    margin-right: 15.999px;
+    vertical-align: top;
+    width: 565px;
+}
+
+._95ka {
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+#content {
+    margin: 0;
+    outline: none;
+    padding: 0;
+    width: auto;
+}
+
+.the_box{
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+    padding: 100px 0;
+}
+
+.lv_img{
+    height: 108px;
+}
+
+.lv_box_left{
+    width: 550px;
+    padding: 100px 0;
+}
+
+.lv_box_right{
+    width: 400px;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.inner-box{
+    width: 900px;
+    margin: auto;
+    display: inline-flex;
+}
+
+.lv_box_left_text{
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 34px;
+    width: 500px;
+    padding: 0 0 20px;
+    margin: 18px 0;
+}
+
+.my-container{
+    width: 100%;
+}
+
+.bg-lv{
+    background: #f0f2f5;
+}
+
+.row{
+    padding: 0;
+}
+
+.sign_in_form{
+    height: 456px;
+    width: 396px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.sign_in_form > .form-inner > form > .form-control{
+    height: 45px;
+    width: 364px;
+    font-size: 17px;
+    margin: 15px 0;
+    padding: 14px 16px;
+}
+
+.form-inner{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0 100px;
+    padding: 20px 0 28px;
+        padding-top: 20px;
+        padding-bottom: 28px;
+        padding: 20px 17px;
+    width: 396px;
+
+}
+
+.cnacc{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #42b72a;
+    box-sizing: content-box;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    margin-left: 85px;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    margin-left: auto;
+}
+
+.cnacc:hover{
+    text-decoration:  none;
+}
+
+.sign_in_form > .form-inner > form > button{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    color: white;
+}
+
+._58mk{
+    margin-top: 28px;
+    text-align: center;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+#pageFooter {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+
+#logosville ._-kb div {
+    font-family: inherit;
+}
+
+._2pid {
+    padding-top: 8px;
+}
+
+.localeSelectorList {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.localeSelectorList > li {
+    margin: auto 2px;
+}
+
+#pageFooter {
+    color: #737373;
+    font-size: 12px;
+}
+
+#logosville ._-kb div {
+    font-family: inherit;
+}
+#contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+.mvl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pageFooter .pageFooterLinkList {
+    line-height: 1.6;
+    margin-left: -20px;
+}
+#pageFooter > ul {
+    list-style-type: none;
+    margin: 0;
+        margin-left: 0px;
+    padding: 0;
+}
+
+._4ki._6-i > li {
+    padding-right: 0;
+}
+._4ki._703 > li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+._509- > li {
+    vertical-align: top;
+}
+._4ki > li {
+    border-width: 0 0 0 1px;
+    display: inline-block;
+}
+#logosville ._-kb div {
+    font-family: inherit;
+}
+#pageFooter .copyright {
+    font-size: 11px;
+}
+
+._95ke #pageFooterChildren a, ._95ke .localeSelectorList a {
+    color: #8a8d91;
+}
+
+._n9 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+._n3 {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    text-align: left;
+}
+
+._8ien {
+    background-color: transparent;
+    overflow: visible;
+    padding: 0;
+    width: 432px;
+}
+
+._52lq {
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+}
+
+.fwb {
+    font-weight: 600;
+}
+
+._52lp {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 16px;
+        padding-top: 10px;
+    position: relative;
+    width: 432px;
+    z-index: 1;
+}
+.sign_modal_header > .close{
+    margin-top: -500px;
+    float: right;
+    position: relative;
+}
+
+.lv_up_text {
+    color: #606770;
+    font-family: "SFProText-Regular", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1060px) {
+    body{
+        min-width: 450px;
+    }
+    .the_box{
+        position: relative;
+        width: 100%;
+        padding: 0;
+    }
+    .inner-box{
+        width: 100%;
+        display: block;
+    }
+    .my-container{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .lv_box_left{
+        width: 100vw;
+        text-align: center;
+        padding: auto;
+    }
+    .form-inner{
+        margin: 0;
+    }
+    .lv_box_left_text {
+        font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 34px;
+        width: 90%;
+        padding: 0 0 20px;
+        margin: auto;
+    }
+    .lv_box_right{
+        width: 100vw;
+        margin: 0;
+        padding: auto;
+    }
+    .the_footer_box{
+        width: 90%;
+        margin: auto;
+    }
+    .sign_in_form {
+        height: 456px;
+        width: 90%;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1060px) {
+
+}

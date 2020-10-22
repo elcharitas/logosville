@@ -1,0 +1,257 @@
+@font-face {
+    font-family: SFP;
+    src: url("/assets/fonts/Roboto-Light.ttf");
+}
+
+.chatSidebar {
+    background-clip: padding-box;
+    background-color: #e9ebee;
+    border-left: 1px solid rgba(0, 0, 0, .4);
+        border-left-color: rgba(0, 0, 0, 0.4);
+    box-shadow: inset 2px 0 2px -2px #b2b9c9;
+    font-size: 12px;
+    height: 100%;
+    line-height: 16px;
+    position: fixed !important;
+    overflow-y: scroll;
+    right: 0;
+    top: 0;
+    width: 220px;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '.';
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.sIB {
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 7px;
+}
+
+.box{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    min-height: 35px;
+}
+
+.sFLi{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+._55lq {
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    height: 32px;
+    position: relative;
+    width: 32px;
+}
+
+.sFLi-inner{
+    width: 32px;
+}
+
+img {
+    border: 0;
+    width: 32;
+    height: 32;
+}
+
+.img{
+    border-radius: 100%;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+
+.sULi {
+    line-height: 32px;
+}
+.sULi{
+    overflow: hidden;
+    padding-left: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sFLi._4bl7 {
+    float: none;
+}
+.sFLiI{
+    width: 35px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 10px;
+    height: 32px;
+    padding: 8px;
+}
+.sULi {
+    line-height: 32px;
+}
+.sULi{
+    overflow: hidden;
+    padding-left: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sFLi {
+    float: none;
+}
+.sFLiW {
+    word-wrap: break-word;
+    width: 141px;
+    overflow: hidden;
+}
+
+.sFLi{
+    padding-left: 8px;
+    position: relative;
+    padding: 8px auto;
+}
+.box > li{
+    padding: 8px auto;
+}
+
+.box > li:hover, .box > li:focus, .box > li:active{
+    background-color: #dddfe2;
+    box-shadow: 1px 0 0 #eaebed inset;
+    text-decoration: none;
+}
+
+.sH{
+    height: 30px;
+}
+
+
+.onlineImg{
+    background-image: url("/assets/images/HyGYKgn881M.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -2px -817px;;
+    cursor: pointer;
+    display: block;
+    height: 14px;
+    right: 6px;
+    top: 4px;
+    width: 14px;
+    z-index: 2;
+    float: left;
+}
+
+
+.crGroup {
+    background-image: url("/assets/images/uRwe9Etk7uV.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 4px -358px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    right: 6px;
+    top: 4px;
+    width: 25px;
+    z-index: 2;
+    background-color: white;
+}
+
+.reqImg{
+    background-image: url("/assets/images/uRwe9Etk7uV.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 4px -358px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    right: 6px;
+    top: 4px;
+    width: 25px;
+    z-index: 2;
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 1258px) {
+    .fixed_always {
+        display: none;
+    }
+    .userPage{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1258px) {
+    .buddyListPage {
+        display: none;
+    }
+}
+
+.margin{
+    height: 42px;
+}
+
+.buddyListPage{
+    position: fixed;
+    bottom: 0;
+    z-index: 1000px;
+    right: 50px;
+}
+
+.numList {
+    margin-left: 12px;
+    margin-right: 1px;
+}
+
+.numListBtn {
+    background: #fff;
+    margin-top: -8px;
+    padding-bottom: 25px;
+    padding-top: 12px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    color: #333;
+    display: inline-flex;
+    font-weight: bold;
+    outline: none;
+    padding: 6px 4px 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.numText{
+    position: relative;
+    top: -2px;  
+    display: inline-flex;
+    width: 100%;
+}
+
+.label{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.floatR{
+    position: relative;
+}

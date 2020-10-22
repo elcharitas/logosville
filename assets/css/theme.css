@@ -1,0 +1,815 @@
+@media only screen and (max-width: 1000px) {
+    .createP, .createP2{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .lMain{
+        display: none;
+    }
+    .createP, .createP2{
+        width: 100%;
+    }
+    .bodyMain{
+        width: 100%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .lMain{
+        display: none;
+    }
+    .createP, .createP2{
+        width: 100%;
+    }
+    .bodyMain{
+        width: 100%;
+    }
+    .col-12{
+        width: 100%;
+    }
+    .large{
+        display: none;
+    }
+    .margin{
+        height: 65px;
+    }.chatSidebar{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 761px){
+    .small{
+        display: none;
+    }
+}
+
+.main{
+    min-height: 74vh;
+}
+
+section{
+    min-width: 400px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background: #e9ebee;
+    font-family: Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+.active{
+    background-color: rgb(0, 0, 0, 0.2);;
+    border-radius: 8px;
+}
+
+#logosville{
+    touch-action: manipulation;
+    background-color: #e9ebee;
+    font-family: Helvetica, sans-serif;
+}
+
+.header{
+    width: 100%;
+    background-color: #0000CD;
+    border-bottom: 1px solid #0202f1;
+    height: 42px;
+    position: fixed;
+    font-family: Helvetica, sans-serif;
+    z-index: 1000;
+}
+
+.header2{
+    width: 100%;
+    background-color: #0000CD;
+    border-bottom: 1px solid #0202f1;
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    z-index: 1000;
+}
+
+.h-tot{
+    align-self: center;
+    height: 38px;
+}
+
+.h-left{
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.siteIcon{
+    background-image: url("/assets/images/logo.jpg");
+    background-size: cover;
+}
+
+.search {
+    background-color: #fff;
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 26px;
+    left: -1px;
+    margin-left: 0px;
+    margin-top: -7px;
+    max-width: 448px;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 48px;
+    position: relative;
+    top: 8px;
+    width: auto;
+}
+
+.sImg {
+    background-image: url("/assets/images/HyGYKgn881M.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -975px;
+    cursor: pointer;
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    width: 14px;
+    z-index: 2;
+}
+
+.sBtn {
+    background: #f5f6f7;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    line-height: 1;
+    padding: 0 16px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 1;
+    color: #d7bcb3;
+}
+
+.uiTypeahead .innerWrap {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.uiTypeahead .textInput {
+    background-color: transparent;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    width: 100%;
+}
+
+.sInf, .wrap {
+    background: transparent;
+    border: none;
+    height: 23px;
+}
+
+.textInput {
+    color: #90949c;
+    border: 0px;
+}
+
+.sInp{
+    width: 100%;
+    padding: auto;
+    border: none;
+}
+
+.h-href {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    white-space: nowrap;
+    display: inline-flex;
+    height: 30px;
+    padding: 2px 10px;
+    color: #bbb;
+}
+
+.h-href:hover{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.h-p-user{
+    height: 24px;
+    width: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+    border-radius: 100%;
+}
+
+.h-right {
+    margin-right: 1px;
+    color: #fff;
+    display: inline-flex;
+}
+
+.rBdr{
+    border-right:1px solid #020253;
+    margin-top: 7px;
+    height: 20px;
+}
+
+.icon2{
+    padding: 2px 10px;
+}
+
+/*=====================================================*/
+/* Header Images */
+/*=====================================================*/
+.msgL {
+    background-image: url("/assets/images/HyGYKgn881M.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -737px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    right: 6px;
+    top: 4px;
+    width: 25px;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.msgL:hover{
+    opacity: 1;
+}
+.msgL2{
+    background-image: url("/assets/images/HyGYKgn881M.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -712px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    right: 6px;
+    top: 4px;
+    width: 25px;
+    z-index: 200;
+    opacity: 1;
+    float: left;
+}
+.notL {
+    background-image: url("/assets/images/HyGYKgn881M.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -636px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    right: 6px;
+    top: 4px;
+    width: 25px;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.notL:hover{
+    opacity: 1;
+}
+.notL2 {
+    background-image: url("/assets/images/HyGYKgn881M.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -612px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    right: 6px;
+    top: 4px;
+    width: 25px;
+    z-index: 2;
+    opacity: 1;
+    float: left;
+}
+
+.frL {
+    background-image: url("/assets/images/HyGYKgn881M.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -686px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    right: 6px;
+    top: 4px;
+    width: 25px;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.frL:hover{
+    opacity: 1;
+}
+.frL2 {
+    background-image: url("/assets/images/HyGYKgn881M.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -663px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    right: 6px;
+    top: 4px;
+    width: 25px;
+    z-index: 2;
+    opacity: 1;
+}
+
+.soutL {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.soutL:hover{
+    opacity: 1;
+}
+
+/*=====================================================*/
+/* Header Images End */
+/*=====================================================*/
+
+a{
+    color: #3b5998;
+}
+
+/*=====================================================*/
+/* Header Popovers */
+/*=====================================================*/
+
+/* The actual create */
+.msgtext, .reqtext, .nottext{
+    visibility: hidden;
+    width: 340px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 40px;
+    height: 280px;
+    margin-left: -18px;
+    border: 1px solid #8896a8;
+    overflow: hidden;
+}
+
+/* create arrow */
+.nottext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 79%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.reqtext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 53%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.msgtext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 66%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.msg, .req, .msg {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.msgUl, .reqUl, .notUl{
+    list-style: none;
+    text-align: left;
+}
+
+.reqLi, .notLi, .msgLi{
+    display: inline-flex;
+    padding: 0px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    width: 340px;
+    height: 23px;
+    font-size: 12px;
+}
+
+.reqLi2, .notLi2, .msgLi2{
+    text-align: left;
+    width: 340px;
+    height: 217px;
+    font-size: 12px;
+    overflow-y: scroll;
+    margin-top: 5px;
+}
+
+.reqTop, .notTop, .msgTop{
+    font-size: 12px;
+    width: 340px;
+    display: inline-flex;
+    color: #1d2129;
+    font-weight: 600;
+    text-align: left;
+    float: left;
+    position: fixed;
+    height: 30px;
+    border-bottom: 1px solid #dddfe2;
+    padding: 5px 15px;
+}
+
+.reqFooter, .notFooter, .msgFooter{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    height: 30px;
+    width: 340px;
+    text-align: center;
+    color: #3b5998;
+    border-top: 1px solid #dddfe2;
+}
+
+.mar-right-2{
+    position: absolute;
+    right: 10px;
+    color: #3b5998;
+}
+
+.fRLi{
+    padding: 10px 12px;
+    width: 100%;
+    position: relative;
+}
+
+/*=====================================================*/
+/* Header Popovers */
+/*=====================================================*/
+
+.main{
+    background-color: #e9ebee;
+}
+
+.bodyMain{
+    width: 100%;
+}
+
+.notiFli{
+    width: 310px;
+    margin: auto;
+    display: inline-flex;
+}
+
+.notiFliR{
+    background-color: white;
+    margin: 1px auto;
+}
+
+.notiFLiU{
+    background: #bbb;
+    margin: 1px auto;
+}
+
+.fica, .fim{
+    width: 100%;
+    background-color: #e9ebee;
+}
+
+.fica > li, .fim > li{
+    width: 100%;
+    min-height: 45px;
+    line-height: 20px;
+}
+
+.fica > li{
+    display: inline-flex;
+}
+
+.fica > li:hover, .fim > li:hover{
+    background: darkgrey;
+}
+
+.createP{
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 15px auto;
+    width:100%;
+    margin-left: 0;
+}
+
+.createP2{
+    overflow: hidden;
+    margin: 15px auto;
+    width:100%;
+    border-radius: 0px;
+    margin-left: 0;
+    background-color: #ffffff;
+}
+
+.createH{
+    height: 34px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #4b4f56;
+    font-family: helvetica;
+    font-weight: 600;
+    background-color: #f5f6f7;
+}
+
+.createH2{
+    min-height: 50px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #4b4f56;
+    font-family: helvetica;
+    font-weight: 600;
+    background-color: #f5f6f7;
+    padding: 5px 10px;
+}
+
+.createImg{
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.createText{
+    width: 90%;
+    margin: auto;
+    max-height: 300px;
+    overflow-y: hidden;
+}
+
+.commentText{
+    width: 100%;
+    display: inline-flex;
+}
+
+.createFooterBottom{
+    width: 100%;
+    height: max-content;
+    overflow-y: scroll;
+}
+
+.commentText > button{
+    padding: auto 10px;
+}
+
+.cTA{
+    border-radius: 40%;
+}
+
+.createFooter{
+    width: 100%;
+    min-height: 50px;
+    background-color: #f5f6f7;
+}
+
+.createFooterTop{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.top-box{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.createTA, .createTA2{
+    padding: 5px 0;
+    margin-bottom: 10px;
+    height: max-content;
+}
+
+.createOthers{
+    min-height: 30px;
+}
+
+.margin{
+    height: 42px;
+}
+/*********************************8
+USER PAGE
+**********************************/
+
+
+
+
+
+
+
+/*********************************8
+USER PAGE ENDS
+**********************************/
+.from{
+    background-color: lightgreen;
+    width: max-content;
+    font-style: normal;
+    padding: 1px 12px;
+    line-height: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    color: black;
+    max-width: 75%;
+    margin: 2px auto;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.fromS{
+    width: auto;
+    font-style: normal;
+    font-size: 8px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    color: black;
+}
+
+.to{
+    background-color: lightslategray;
+    width: max-content;
+    font-style: normal;
+    line-height: 20px;
+    max-width: 75%;
+    padding: 1px 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: black;
+    margin: 2px auto;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+.from > p, .to > p{
+    line-height: 20px;
+    margin: auto;
+    padding: 5px;
+}
+
+.stats{
+    font-size: 8px;
+}
+
+.text{
+    margin: 4px auto;
+    width: 100%;
+}
+
+.to > ol, .from > ol{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 576px){
+    .lMain2{
+        display: none;
+    }
+}
+#allMM{
+    margin-top: 25px;
+    min-height: 50px;
+    max-height: 400px;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 5px 12px;
+}
+
+
+
+
+
+
+/* Add animation (fade in the create) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/*
+ *  STYLE 1
+ */
+
+ .style-1::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+ .style-1::-webkit-scrollbar
+ {
+     width: 5px;
+     background-color: #F5F5F5;
+ }
+ 
+ .style-1::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+     background-color: #555;
+ }
+ 
+ /*
+  *  STYLE 2
+  */
+ 
+ #allMM::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+ #allMM::-webkit-scrollbar
+ {
+     width: 5px;
+     background-color: #F5F5F5;
+ }
+ 
+ #allMM::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+     background-color: #D62929;
+ }
+ 
+ /*
+  *  STYLE 3
+  */
+ 
+ #style-3::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #F5F5F5;
+ }
+ 
+ #style-3::-webkit-scrollbar
+ {
+     width: 6px;
+     background-color: #F5F5F5;
+ }
+ 
+ #style-3::-webkit-scrollbar-thumb
+ {
+     background-color: #000000;
+ }
+ 
